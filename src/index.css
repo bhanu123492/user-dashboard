@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    text-align: center;
+    font-family: sans-serif;
+}
+button{
+    cursor: pointer;
+}
+.main-heading{
+    font-weight: 900;
+}
+.search-container{
+    margin-top: 20px;
+    text-align: center;
+}
+.search-container input{
+    border: solid 1px orange;
+    padding: 5px;
+    width: 400px;
+    margin-right:10px ;
+    border-radius: 5px;
+    outline: none;
+    
+}
+.search-container button{
+    background-color: orange;
+    border: solid 0px;
+    width: 100px;
+    height: 32px;
+    color: white;
+    border-radius: 2px;
+}
+
+.users-container{
+    text-align: center;
+    /* margin: 1% 5% 1% 5% ; */
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+.user-card{
+    width:200px ;
+    height: 220px;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.user-container{
+    
+    padding: 10px;
+}
+.user-container a{
+    text-decoration: none;
+}
+.user-container .delete-button{
+    background-color: orange;
+    border: solid 0px;
+    width: 100px;
+    height: 32px;
+    color: white;
+    margin-right: 5px;
+    border-radius: 5px;
+
+}
+.user-container .edit-button{
+    background-color: white;
+    border: solid 2px orange;
+    width: 100px;
+    height: 32px;
+    color: orange;
+    border-radius: 5px;
+}.back-button{
+    margin: 20px;
+    background-color: black;
+    border: solid 2px white;
+    width: 150px;
+    height: 32px;
+    color: White;
+    border-radius: 5px;
+}
+.user-card h4{
+    margin-top: 20px;
+    color: black;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+.user-card svg{
+    color: black;
+    width: 100px;
+    min-height: 50px;
+}
+.user-card ul{
+    list-style: none;
+}
+.user-card ul li{
+    color: black;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.user-card ul li h4{
+ font-size: 15px;
+ font-weight: 600;
+ color: orange;
+}
+.user-profile{
+    margin-top: 50px;
+    padding: 20px 60px;
+    text-align: center;
+    border: solid 1px black;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+.user-profile svg{
+    margin: 10px;
+    height: 80px;
+    width: 80px;
+    
+}
+.user-profile ul{
+    list-style: none;
+    font-size: 15px;
+    text-align: left;
+}
+.user-profile ul li{
+    margin-bottom: 10px;
+}
+.user-profile ul li h5{
+    font-weight: 900;
+    font-size: 20px;
+    color: orange;
+}
+.user-profile ul li span{
+    font-weight: 600;
+    color: orange;
+}
+.error-message{
+    width: 50%;
+    margin: auto;
+    background-color: red;
+    color: #fff;
+    margin-top: 15px;
+}
